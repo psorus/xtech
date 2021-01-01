@@ -1,0 +1,3 @@
+\newpage
+\section{###title###}\label{sec:###label###}
+%{{{for_###label###}}}

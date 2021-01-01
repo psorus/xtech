@@ -1,0 +1,22 @@
+\begin{figure}[H]
+\begin{subfigure}{###wid###\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{###file###}
+  \label{fig:###label###_1}
+\end{subfigure}%
+\begin{subfigure}{###wid###\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{###file2###}
+  \label{fig:###label###_2}
+\end{subfigure}%
+\begin{subfigure}{###wid###\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{###file3###}
+  \label{fig:###label###_3}
+\end{subfigure}%
+\caption{###caption###}
+\label{fig:###label###}
+\end{figure}
+
+
+

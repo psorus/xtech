@@ -1,0 +1,19 @@
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../imgs/back/page###label###.png}}
+\begin{frame}[label=page###label###]{}
+
+%left
+\begin{textblock*}{\paperwidth}(0pt,0.1\paperheight)
+    \hyperlink{overlay}{
+    \begin{beamercolorbox}[wd=0.9\textwidth,sep=1em]{red}
+    \end{beamercolorbox}
+    }
+\end{textblock*}
+
+{{{trafo###label###}}}
+
+\textcolor{red}{page###label###}
+
+###q###
+
+\end{frame}

@@ -1,0 +1,8 @@
+
+%left
+\begin{textblock*}{###wid###\paperwidth}(###px###\paperwidth,###py###\paperheight)
+    \hyperlink{###goto###}{\textcolor{red}{###goto###}
+    \begin{beamercolorbox}[wd=0.9\textwidth,sep=2em]{red}
+    \end{beamercolorbox}
+    }
+\end{textblock*}

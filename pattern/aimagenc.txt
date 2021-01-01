@@ -1,0 +1,6 @@
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=###wid###\textwidth]{###file###}
+\label{fig:###label###}
+  \end{figure}
+

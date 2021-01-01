@@ -1,0 +1,3 @@
+\begin{columns}[c] % align columns
+###q###
+\end{columns}

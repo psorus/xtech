@@ -1,0 +1,4 @@
+
+\bibliography{main}{}
+\bibliographystyle{plainurl}
+\end{document}

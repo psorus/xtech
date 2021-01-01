@@ -1,0 +1,4 @@
+\newpage
+\appendix
+%\addcontentsline{toc}{section}{Appendices}
+%\section*{Appendices}

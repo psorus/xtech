@@ -1,0 +1,14 @@
+\begin{figure}[H]
+\begin{center}$
+\begin{array}{c}
+\includegraphics[width=###wid###\textwidth]{###file###} \\
+\includegraphics[width=###wid###\textwidth]{###file2###} \\
+\includegraphics[width=###wid###\textwidth]{###file3###}
+\end{array}$
+\end{center}
+\caption{###caption###}
+\label{fig:###label###}
+\end{figure}
+
+
+

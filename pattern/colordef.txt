@@ -1,0 +1,1 @@
+\definecolor{###name###}{RGB}{###color###}

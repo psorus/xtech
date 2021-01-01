@@ -1,0 +1,2 @@
+altimgext="png"
+stdimgext="pdf"

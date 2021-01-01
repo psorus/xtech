@@ -1,0 +1,10 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|###head###|} 
+
+###q###
+
+\end{tabular}
+\caption{###caption###}
+\label{table:###label###}
+\end{table}

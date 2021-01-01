@@ -1,0 +1,4 @@
+\begin{column}{###wid###\textwidth}%.48
+###q###
+\end{column}%
+\hfill%

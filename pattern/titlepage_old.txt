@@ -1,0 +1,27 @@
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+
+       \textbf{###title###}
+
+       \vspace{0.5cm}
+        ###subtitle###
+            
+       \vspace{1.5cm}
+
+       \textbf{###name###}
+
+       \vfill
+            
+       A thesis presented for the degree of\\
+       Master of Science
+            
+       \vspace{0.8cm}
+                 
+       ###department###\\
+       ###university###\\
+       ###country###\\
+       \date{\today}
+            
+   \end{center}
+\end{titlepage}

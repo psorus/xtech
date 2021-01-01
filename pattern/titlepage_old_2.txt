@@ -1,0 +1,24 @@
+%titlepage
+\thispagestyle{empty}
+\begin{center}
+\begin{minipage}{0.75\linewidth}
+    \centering
+%University logo
+    %\includegraphics[width=0.3\linewidth]{logo.pdf}
+    %\rule{0.4\linewidth}{0.15\linewidth}\par
+    %\vspace{3cm}
+    \vspace{3cm}
+%Thesis title
+    {\uppercase{\Large\textbf{###title###}\par}}
+    \vspace{3cm}
+%Author's name
+    {\Large \textbf{###name###}\par}
+    \vspace{6cm}
+%Degree
+    {\Large A thesis submitted for the degree of Master of Science\par}
+    \vspace{6cm}
+%Date
+    {\Large \today}
+\end{minipage}
+\end{center}
+\clearpage

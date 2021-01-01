@@ -1,0 +1,4 @@
+\setbeamercolor{coloredboxstuff}{fg=###fg###,bg=###bg###}
+\begin{beamercolorbox}[wd=0.9\textwidth,sep=1em]{coloredboxstuff}
+###q###
+\end{beamercolorbox}

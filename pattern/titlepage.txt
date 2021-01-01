@@ -1,0 +1,39 @@
+\begin{titlepage}
+
+	\centering
+	{\huge\bfseries ###title###\par}
+	\vspace{2cm}
+	{\LARGE\itshape ###name###\par}
+	\vspace{1.5cm}
+	{\scshape\Large Master Thesis in Physics\par}
+	\vspace{0.2cm}
+	{\Large submitted to the \par}
+	\vspace{0.2cm}
+	{\scshape\Large Faculty of Mathematics Computer Science and Natural Sciences \par}
+	\vspace{0.2cm}
+	{\Large \par}
+	\vspace{0.2cm}
+	{\scshape\Large RWTH Aachen University}
+	\vspace{1cm}
+	
+	\vfill
+	{\scshape\Large Department of Physics\par}
+	\vspace{0.2cm}
+	{\scshape\Large ###department###\par}
+	\vspace{0.2cm}
+	{ \Large\par}
+	\vspace{0.2cm}
+	{\Large First Referee: Prof. Dr. Michael Kraemer \par}
+	{\Large Second Referee: Prof. Dr. Felix Kahlhoefer}
+
+	\vfill
+
+% Bottom of the page
+	{\large November 2020 \par}
+\end{titlepage}
+\pagenumbering{roman}
+\thispagestyle{empty}
+\null
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}

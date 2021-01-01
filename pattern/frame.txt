@@ -1,0 +1,4 @@
+\begin{frame}[label=###label###]
+\frametitle{###title###}
+###q###
+\end{frame}

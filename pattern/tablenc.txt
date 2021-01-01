@@ -1,0 +1,9 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|###head###|} 
+
+###q###
+
+\end{tabular}
+\label{table:###label###}
+\end{table}

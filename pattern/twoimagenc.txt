@@ -1,0 +1,9 @@
+\begin{figure}[H]
+\begin{center}$
+\begin{array}{c}
+\includegraphics[width=###wid###\textwidth]{###file###} \\
+\includegraphics[width=###wid###\textwidth]{###file2###}
+\end{array}$
+\end{center}
+\label{fig:###label###}
+\end{figure}

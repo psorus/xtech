@@ -1,0 +1,23 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Pittsburgh}
+
+\usecolortheme{owl}
+\setbeamercolor{normal text}{fg=black, bg=white}
+
+\usepackage{lipsum}
+\usepackage{changepage}
+
+\usepackage[absolute,overlay,showboxes]{textpos}
+
+
+%\usepackage[texcoord,grid,gridunit=em,gridcolor=red!10,subgridcolor=green!10]
+%{eso-pic}
+
+\setbeamersize{text margin left=3.5em,text margin right=3.5em} 
+\addtolength{\headsep}{2.5em}
+%\addtolength{\headsep}{3.5em}
+
+
+\begin{document}
+
+
