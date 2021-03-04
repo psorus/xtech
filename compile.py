@@ -495,7 +495,7 @@ def addtitlepage(**q):
   if "title" in q.keys():title=q["title"]
   subtitle=""
   if "subtitle" in q.keys():subtitle=q["subtitle"]
-  name="Simon Klüttermann"
+  name="Simon Kluettermann"
   if "name" in q.keys():name=q["name"]
   department="Insitute for theoretical Particle Physics and Cosmology"
   if "department" in q.keys():department=q["department"]
@@ -715,7 +715,7 @@ def readsettings(q,folder,**kw):
   
   _,m.stitle,q,_=asfilterq(q,"stitle")
   _,m.title,q,_=asfilterq(q,"title")
-  _,m.author,q,_=asfilterq(q,"author","Simon Klüttermann")
+  _,m.author,q,_=asfilterq(q,"author","Simon Kluettermann")
   _,m.theme,q,_=asfilterq(q,"theme","Berlin")
   _,m.colo,q,_=asfilterq(q,"colo","whale")
   _,m.institute,q,_=asfilterq(q,"institute")

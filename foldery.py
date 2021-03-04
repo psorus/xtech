@@ -29,8 +29,10 @@ def listboth(q):
 def advlist(q):
   return [[join(q,f),isfile(join(q,f))] for f in sorted(listdir(q))]
 def read(fil):
-  with open(fil,"r") as f:
-    return germanise(f.read() )
+  if isfile(fil):
+    with open(fil,"r") as f:
+      return germanise(f.read() )
+  return fil
 def write(fil,x):
   with open(fil,"w") as f:
     f.write(x)

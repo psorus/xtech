@@ -29,7 +29,7 @@ def special(**q):
     if "title" in q.keys():title=q["title"]
     subtitle=""
     if "subtitle" in q.keys():subtitle=q["subtitle"]
-    name="Simon Klüttermann"
+    name="Simon Kluettermann"
     if "name" in q.keys():name=q["name"]
     department="Insitute for theoretical Particle Physics and Cosmology"
     if "department" in q.keys():department=q["department"]
