@@ -371,6 +371,29 @@ def xfootnote(**q):
     ac=ac+"."
   return "\\footnote{"+ac+"}"
 
+def xblock(**q):
+    ac=q["q"]
+    if "wid" in q.keys():
+        wid=str(q["wid"])
+    else:
+        wid="5"
+    if "x" in q.keys():
+        x=str(q["x"])
+    else:
+        x="1.0"
+    if "y" in q.keys():
+        y=str(q["y"])
+    else:
+        y="1.0"
+    ret=read("pattern/block.txt")
+
+    ret=ret.replace("###wid###",wid)
+    ret=ret.replace("###x###",x)
+    ret=ret.replace("###y###",y)
+    ret=ret.replace("###q###",ac)
+
+    return ret
+
 def xcbox(**q):
   fg=q["f"]
   bg=q["b"]
@@ -591,6 +614,7 @@ def addfile(m,fil):
   
   
   s=calledfilter(s,"phibox",addphibox)
+  s=calledfilter(s,"block",xblock)
   
   
   s=calledfilter(s,"table",addtable,m=m)

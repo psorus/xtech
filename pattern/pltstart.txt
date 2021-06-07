@@ -66,4 +66,14 @@
   \vskip0pt%
 }
 
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+
+\newcommand{\source}[1]{\begin{textblock*}{9cm}(0.1cm,8.9cm)
+    \begin{beamercolorbox}[ht=0.5cm,left]{framesource}
+        \usebeamerfont{framesource}\usebeamercolor[fg!66]{framesource} Source: {#1}
+    \end{beamercolorbox}
+\end{textblock*}}
+
+
 \begin{document}

@@ -1,0 +1,3 @@
+\begin{textblock*}{###wid###cm}(###x###cm,###y###cm) % {block width} (coords)
+###q###
+\end{textblock*}
