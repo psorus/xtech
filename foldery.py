@@ -32,6 +32,9 @@ def read(fil):
   if isfile(fil):
     with open(fil,"r") as f:
       return germanise(f.read() )
+  print("failed")
+  print(fil)
+  exit()
   return fil
 def write(fil,x):
   with open(fil,"w") as f:

@@ -474,9 +474,9 @@ def addtable(**q):
   allsec.append({"typ":"table","caption":caption,"label":label,"file":acfile})
   
   if len(caption)>0:
-    rel=read("pattern\\table.txt")
+    rel=read("pattern/table.txt")
   else:
-    rel=read("pattern\\tablenc.txt")
+    rel=read("pattern/tablenc.txt")
   
   rel=rel.replace("###label###",label)
   rel=rel.replace("###caption###",caption)
@@ -499,7 +499,7 @@ def addtline(**q):
   return ret
 
 def addhline(**q):
-  return read("pattern\\hline.txt")
+  return read("pattern/hline.txt")
 
 def returnnothing(**q):
   return ""
@@ -544,6 +544,10 @@ def addhlink(**q):
   
 
   return read("pattern/hyperlink.txt").replace("###where###",what).replace("###q###",q["q"])
+def makebold(**q):
+  q=q["q"]
+  
+  return read("pattern/bold.txt").replace("###q###",q)
   
 def addmultiply(**q):
   inside=q["q"]
@@ -638,6 +642,7 @@ def addfile(m,fil):
   s=betweencall(s,"##",addformula,mode=False)
   s=betweencall(s,"#",addformula,mode=True)
   
+  s=calledfilter(s,"b",makebold,m=m)
   
  
   return s
