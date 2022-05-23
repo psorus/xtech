@@ -1,4 +1,4 @@
-\begin{frame}[label=###label###]
+\begin{frame}[label=###label######add###]
 \frametitle{###title###}
 ###q###
 \end{frame}

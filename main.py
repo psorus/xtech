@@ -15,6 +15,12 @@ folder="../howto2/"
 folder="../p/"
 #folder="../howto3/"
 #folder="../howto4/"
+folder="../tether/"
+folder="../pap/"
+folder="../grade/"
+folder="../ether/"
+folder="../fair/"
+folder="../yano/"
 
 
 compile(folder)

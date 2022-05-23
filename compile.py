@@ -87,7 +87,7 @@ def addfourimg(fnam,fnam2,fnam3,fnam4,label,caption="",wid="0.9"):
 
 def refile(fname,m):
   if len(fname)<=0:return fname
-  if not ("\\" in fname):
+  if not ("\\" in fname or "/" in fname):
     fname=join(m.imgfold,fname)
   fname=fname.replace("\\","/")
   if isfile(fname):
@@ -296,6 +296,11 @@ def addframe(**q):
   ret=ret.replace("###title###",title)
   ret=ret.replace("###label###",label)
   ret=ret.replace("###q###",q["q"])
+  if "<code" in q["q"]:
+    add=",containsverbatim"
+  else:
+    add=""
+  ret=ret.replace("###add###",add)
   return ret
 
 loop=""
@@ -390,6 +395,14 @@ def xblock(**q):
     ret=ret.replace("###wid###",wid)
     ret=ret.replace("###x###",x)
     ret=ret.replace("###y###",y)
+    ret=ret.replace("###q###",ac)
+
+    return ret
+
+def xcode(**q):
+    ac=q["q"]
+    ret=read("pattern/code.txt")
+
     ret=ret.replace("###q###",ac)
 
     return ret
@@ -619,6 +632,7 @@ def addfile(m,fil):
   
   s=calledfilter(s,"phibox",addphibox)
   s=calledfilter(s,"block",xblock)
+  s=calledfilter(s,"code",xcode)
   
   
   s=calledfilter(s,"table",addtable,m=m)

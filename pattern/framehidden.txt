@@ -1,4 +1,4 @@
-\begin{frame}[noframenumbering,label=###label###]
+\begin{frame}[noframenumbering,label=###label######add###]
 \frametitle{###title###}
 ###q###
 \end{frame}
