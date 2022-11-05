@@ -92,6 +92,8 @@ def subprep(pth,tit):
 
     ret=ret.replace("<e><l2st></e>","<l2st>")
     ret=ret.replace("<e></l2st></e>","</l2st>")
+    ret=ret.replace("<e><l3st></e>","<l3st>")
+    ret=ret.replace("<e></l3st></e>","</l3st>")
 
     return ret
 

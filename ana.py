@@ -1,5 +1,5 @@
-print("really?")
-exit()
+#print("really?")
+#exit()
 from compile import compile
 from prep import prep
 
@@ -15,6 +15,11 @@ if __name__ == '__main__':
     pth="#ether"
     pth="#fair"
     pth="#yano"
+    pth="#uopt"
+    pth="#case1"
+    pth="#knn1"
+    pth="#align"
+    #pth="#case2"
 
     pth=pth.replace("#","../")
     both(pth)

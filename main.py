@@ -21,6 +21,10 @@ folder="../grade/"
 folder="../ether/"
 folder="../fair/"
 folder="../yano/"
+folder="../uopt/"
+folder="../case1/"
+folder="../t1/"
+folder="../knn1/"
 
 
 compile(folder)
